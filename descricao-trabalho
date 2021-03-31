@@ -1,0 +1,24 @@
+Boa tarde.
+
+O trabalho de segunda chamada segue o seguinte enunciado:
+
+    1. Criar um programa capaz de ler um arquivo de texto com código assembly ISA MIPS.
+    2. Converter este código assembly para hexadecimal e salvar em outro arquivo.
+    3. O programa deverá ser capaz de converter os labels contiddos em instruções de salto para valores que permitam que o processador realize os saltos corretamente. (Ex abaixo)
+    4. O programa deverá ser capaz de ignorar todo e qualquer comentário contido no arquivo de código fonte as ser convertido.
+    5. O conjunto de instruções que o programa deverá conhecer é: lw, sw, beq, add, sub, and, or, slt, e j.
+    6. O programa pode ser feito na liguagem que o aluno achar mais fácil para o desenvolvimento.
+
+Ex de conversão:
+
+Código fonte:
+#programa loop exemplo para o trabalho de segunda chamada
+loop:
+    add $s0, $s0, $s1 #incrementa $s0
+    slt $s2, $s3, $s0
+    beq $s2, $zero, loop
+
+Conversão:
+0x02118020
+0x0270901a
+0x1240fffd
