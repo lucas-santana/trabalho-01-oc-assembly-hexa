@@ -32,4 +32,17 @@ public class Registradores {
     public ArrayList<Registrador> getRegistradores(){
         return this.registradores;
     }
+
+    /*public Registrador findRegistrador(String nome) throws Exception {
+        Registradores registradores = new Registradores();
+        ArrayList<Registrador> arrayListInstrucao = registradores.getRegistradores();
+
+        for(Registrador registrador: arrayListInstrucao){
+            if(registrador.nomeRegistrador.equals(nome)){
+                return registrador;
+            }
+        }
+        throw new Exception("Registrador não encontrado: "+nome);
+    }*/
 }
+

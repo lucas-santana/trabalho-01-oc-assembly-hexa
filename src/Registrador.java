@@ -13,5 +13,7 @@ public class Registrador {
         return inputString;
     }
 
-
+    public String getNomeRegistrador() {
+        return nomeRegistrador;
+    }
 }
