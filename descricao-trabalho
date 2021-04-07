@@ -13,8 +13,7 @@ Ex de conversão:
 
 Código fonte:
 #programa loop exemplo para o trabalho de segunda chamada
-loop:
-    add $s0, $s0, $s1 #incrementa $s0
+loop:add $s0, $s0, $s1 #incrementa $s0
     slt $s2, $s3, $s0
     beq $s2, $zero, loop
 

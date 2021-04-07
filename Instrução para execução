@@ -1,0 +1,6 @@
+Ao executar o método main da classe Main, o programa irá pedir para digitar o nome do arquivo no diretorio files.
+Nesse diretório há um programa para teste chamado "programa.asm".
+Digite esse nome,programa.asm, e pressione enter.
+Será gerado 2 arquivos na pasta files:
+    1. programa.asm-hexadecimal.txt                      --> esse arquivo contém o programa em hexadecimal
+    2. programa.asm-hexadecimal-com-comentarios.txt      --> esse arquivo contém o programa em hexadecimal e a instrução correspondente ao hexadecimal
